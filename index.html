@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Agency - Start Bootstrap Theme</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <script src="data/data.txt"></script>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="" /></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ml-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" data-toggle="modal" data-target="#instructions">Instructions</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">SuspectInterview</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading">Hi Saloni</div>
+                <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
+                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" data-toggle="modal" data-target="#instructions">See The Instructions</a>
+            </div>
+        </header>
+
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Suspect Interviews </h2>
+                </div>
+                <div class="row" id="grid">
+                 </div>         
+            </div>
+        </section>
+        <!-- Portfolio Modals-->
+ 
+        <div id='individuaModal'></div>
+        
+        <div id='videoModal'></div>
+    
+
+          <!-- Modal -->
+          <div class="portfolio-modal modal fade" id="instructions" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Instructions</h2>
+                                    <p class="item-intro text-muted">Add instructions here</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/02-full.jpg" alt="" />
+                                    <p>Add instructions here</p>
+                                    <ul class="list-inline">
+                                        <li>Date: January 2020</li>
+                                        <li>Client: Explore</li>
+                                        <li>Category: Graphic Design</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+           
+        <script language=JavaScript>
+			var data = data1;
+            var html = document.getElementById("grid").innerHTML;
+           
+			generate();
+			function generate() {
+				for (var i = 0; i < data.length; i++) {
+
+                    for(j =0 ; j<=3 ; j++){
+                        document.getElementById("videoModal").innerHTML += '<div class="portfolio-modal modal fade" id="videoModal'+ data[i]['id']+'_'+j+'" tabindex="-1" role="dialog" aria-hidden="true">'+
+                                                                                '<div class="modal-dialog">'+
+                                                                                    '<div class="modal-content">'+
+                                                                                        '<div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>'+
+                                                                                            '<div class="container">'+
+                                                                                                '<div class="row justify-content-center" >'+
+                                                                                                    '<div class="col-lg-8" >'+
+                                                                                                        '<div class="modal-body" >'+
+                                                                                                            '<!-- Project Details Go Here-->'+
+                                                                                                            '<h2 class="text-uppercase">'+ data[i]['friend']+'</h2>'+
+                                                                                                            '<p class="item-intro text-muted">'+ data[i]['Q'+j]+'</p>'+
+                                                                                                            '<iframe id="drive" src="'+data[i]['vid'+j]+'" width="640" height="480" style="margin:auto;"></iframe>'+
+                                                                                                            '<button class="btn btn-primary" data-dismiss="modal" type="button">'+
+                                                                                                            '<i class="fas fa-times mr-1"></i>'+
+                                                                                                                'Close'+
+                                                                                                            '</button>'+
+                                                                                                        '</div>'+
+                                                                                                    '</div>'+
+                                                                                                '</div>'+
+                                                                                            '</div>'+
+                                                                                        '</div>'+
+                                                                                    '</div>'+
+                                                                                '</div>';
+                    }
+                    document.getElementById("grid").innerHTML +='<div class="col-lg-4 col-sm-6 mb-4">'+
+                        '<div class="portfolio-item">'+
+                            '<a class="portfolio-link" data-toggle="modal" href="#portfolioModal'+ data[i]['id']+'">'+
+                                '<div class="portfolio-hover">'+
+                                    '<div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>'+
+                                '</div>'+
+                                '<img class="img-fluid" src="'+ data[i]['image']+'" alt="" />'+
+                            '</a>'+
+                        '</div>'+
+                    '</div>'
+                    
+
+                    document.getElementById("individuaModal").innerHTML += '<div class="portfolio-modal modal fade" id="portfolioModal'+ data[i]['id'] +'" tabindex="-1" role="dialog" aria-hidden="true">'+
+                                                                                '<div class="modal-dialog">'+
+                                                                                    '<div class="modal-content">'+
+                                                                                        '<div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>'+
+                                                                                            '<div class="container">'+
+                                                                                                '<div class="row justify-content-center" >'+
+                                                                                                    '<div class="col-lg-8" >'+
+                                                                                                        '<div class="modal-body" >'+
+                                                                                                            '<!-- Project Details Go Here-->'+
+                                                                                                            '<h2 class="text-uppercase">'+ data[i]['friend']+'</h2>'+
+                                                                                                            '<p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>'+
+                                                                                                            '<img class="img-fluid d-block mx-auto" src="'+ data[i]['image'] +'" alt="" />'+
+                                                                                                            '<button class="btn btn-primary" type="button"  data-toggle="modal" data-target="#videoModal'+ data[i]['id'] +'_1">'+ data[i]['Q1'] +'</button><br><br>'+
+                                                                                                            '<button class="btn btn-primary" type="button"  data-toggle="modal" data-target="#videoModal'+ data[i]['id'] +'_2">'+ data[i]['Q2'] +'</button><br><br>'+
+                                                                                                            '<button class="btn btn-primary" type="button"  data-toggle="modal" data-target="#videoModal'+ data[i]['id'] +'_3">'+ data[i]['Q3'] +'</button><br><br>'+
+                                                                                                            '<button class="btn btn-primary" data-dismiss="modal" type="button">'+
+                                                                                                            '<i class="fas fa-times mr-1"></i>'+
+                                                                                                                'Close'+
+                                                                                                            '</button>'+
+                                                                                                        '</div>'+
+                                                                                                    '</div>'+
+                                                                                                '</div>'+
+                                                                                            '</div>'+
+                                                                                        '</div>'+
+                                                                                    '</div>'+
+                                                                                '</div>';
+
+
+                                                                                
+				}
+                console.log(document.getElementById("grid").innerHTML);
+           
+            }
+            
+        </script>
+        
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

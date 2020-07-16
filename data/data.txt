@@ -1,0 +1,146 @@
+let data1 = [
+    {
+	"id": 1,
+        "friend": "Ipshita Mahapatra",
+        "image": "images/thumbs/IPSHITA.jpg",
+	"Q1": "Do you have any suspicions?",
+	"Q2": "What was your last interaction with the victim?",
+	"Q3": "What's your equation with the victim?"
+    },
+    {
+	"id": 2,
+        "friend": "Abhinav Nair",
+        "image": "images/thumbs/NAIR.jpg",
+	"Q1": "Notice anything suspicious?",
+	"Q2": "What was your last interaction with the victim?",
+	"Q3": "What's your equation with the victim?"
+	
+    },
+    {
+	"id": 3,
+        "friend": "Disha Honwad",
+        "image": "images/thumbs/DISHA.jpg",
+	"Q1": "Notice anything suspicious?",
+	"Q2": "What was your last interaction with the victim?",
+	"Q3": "What's your equation with the victim?"
+    },
+    {
+	"id": 4,
+        "friend": "Gaurav Gandhi",
+        "image": "images/thumbs/GATTU.jpg",
+	"Q1": "What's in your back pocket?",
+	"Q2": "Notice anything suspicious?",
+	"Q3": "What's your equation with the victim?"
+    },
+    {
+	"id": 5,
+        "friend": "Deepti Tanpure",
+        "image": "images/thumbs/Deepti.jpg",
+	"Q1": "Do you have any suspicions?",
+	"Q2": "What was your last interaction with the victim?",
+	"Q3": "What's your equation with the victim?",
+	"vid1": "https://drive.google.com/file/d/19xR865OlBnIYrqzkMKo-HawAk1P8lsP1/preview",
+	"vid2": "https://drive.google.com/file/d/19yjdfVeC3FGd5xRW_-A13KjgXcTrA1V9/preview",
+	"vid3": "https://drive.google.com/file/d/1AC-s5zzpRqzX5MkfmiPBd4Or0KsAWhdq/preview"
+    },
+    {
+	"id": 6,
+        "friend": "Saif Lakhani",
+        "image": "images/thumbs/SAIF.jpg",
+	"Q1": "What were you doing when the murder took place?",
+	"Q2": "What's your equation with the victim?",
+	"Q3": "When did you see him last?"
+	
+    },
+    {
+	"id": 7,
+        "friend": "Ketan Shukla",
+        "image": "images/thumbs/KETAN.jpg",
+	"Q1": "Who in your opinion looks suspicious?",
+	"Q2": "What was your last interaction with the victim?",
+	"Q3": "What's your equation with the victim?"
+    },
+    {
+	"id": 8,
+        "friend": "Makkhi",
+        "image": "images/thumbs/MAKKHI.jpg",
+	"Q1": "Do you have any suspicions?",
+	"Q2": "What was your last interaction with the victim?",
+	"Q3": "What's your equation with the victim?"
+    },
+    {
+	"id": 9,
+        "friend": "Jai Lulla",
+        "image": "images/thumbs/JAI.jpg",
+	"Q1": "Do you have any suspicions?",
+	"Q2": "What was your last interaction with the victim?",
+	"Q3": "What's your equation with the victim?"
+    },
+    {
+	"id": 10,
+        "friend": "Saif Lakhani",
+        "image": "images/thumbs/SAIF.jpg",
+	"Q1": "What were you doing when the murder took place?",
+	"Q2": "What's your equation with the victim?",
+	"Q3": "When did you see him last?"
+	
+    },
+    {
+	"id": 11,
+        "friend": "Krutika Sarode",
+        "image": "images/thumbs/SARODE.jpg",
+	"Q1": "Any Suspects?",
+	"Q2": "What was your last interaction with the victim?",
+	"Q3": "What's your equation with the victim?"
+    },
+    {
+	"id": 12,
+        "friend": "Ali Asgar",
+        "image": "images/thumbs/ALI.jpg",
+	"Q1": "Do you have any suspicions?",
+	"Q2": "What was your last interaction with the victim?",
+	"Q3": "What's your equation with the victim?"
+    },
+    {
+	"id": 13,
+        "friend": "DT",
+        "image": "images/thumbs/DT.jpg",
+	"Q1": "When did you last see him?",
+	"Q2": "When did you last see him?",
+	"Q3": "What’s your equation with the victim"
+    },
+    {
+	"id": 14,
+        "friend": "Saif Lakhani",
+        "image": "images/thumbs/SAIF.jpg",
+	"Q1": "What were you doing when the murder took place?",
+	"Q2": "What's your equation with the victim?",
+	"Q3": "When did you see him last?"
+	
+    },
+    {
+	"id": 15,
+        "friend": "Faizan Khan",
+        "image": "images/thumbs/FAIZ.jpg",
+	"Q1": "You were seen having an argument during the day with the victim. What were you arguing about?",
+	"Q2": "What was your last interaction with the victim?",
+	"Q3": "What's your equation with the victim?"
+    },
+    {
+	"id": 16,
+        "friend": "Saurabh Karle",
+        "image": "images/thumbs/KARLE.jpg",
+	"Q1": "Do you have any suspicions?",
+	"Q2": "What was your last interaction with the victim?",
+	"Q3": "What's your equation with the victim?"
+    },
+    {
+	"id": 17,
+        "friend": "Shantan Dadi",
+        "image": "images/thumbs/KARLE.jpg",
+	"Q1": "Any Suspects?",
+	"Q2": "What was your last interaction with the victim?",
+	"Q3": "What's your equation with the victim?"
+    }
+];
+

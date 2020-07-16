@@ -1,0 +1,7 @@
+TODO:
+1) Change the backgrounf Image
+2) Make thumnails for displaying images
+3) Add instructions
+4) Add drive links to all videos
+5) Add the suspect input column
+6) Add the final prise loading page
