@@ -2,7 +2,7 @@ let data1 = [
     {
 	"id": 1,
         "friend": "Ipshita Mahapatra",
-        "image": "images/thumbs/IPSHITA.jpg",
+        "image": "images/thumbs/IPSHITA",
 	"Q1": "Do you have any suspicions?",
 	"Q2": "What was your last interaction with the victim?",
 	"Q3": "What's your equation with the victim?"
@@ -10,7 +10,7 @@ let data1 = [
     {
 	"id": 2,
         "friend": "Abhinav Nair",
-        "image": "images/thumbs/NAIR.jpg",
+        "image": "images/thumbs/NAIR",
 	"Q1": "Notice anything suspicious?",
 	"Q2": "What was your last interaction with the victim?",
 	"Q3": "What's your equation with the victim?"
@@ -19,7 +19,7 @@ let data1 = [
     {
 	"id": 3,
         "friend": "Disha Honwad",
-        "image": "images/thumbs/DISHA.jpg",
+        "image": "images/thumbs/DISHA",
 	"Q1": "Notice anything suspicious?",
 	"Q2": "What was your last interaction with the victim?",
 	"Q3": "What's your equation with the victim?"
@@ -27,7 +27,7 @@ let data1 = [
     {
 	"id": 4,
         "friend": "Gaurav Gandhi",
-        "image": "images/thumbs/GATTU.jpg",
+        "image": "images/thumbs/GATTU",
 	"Q1": "What's in your back pocket?",
 	"Q2": "Notice anything suspicious?",
 	"Q3": "What's your equation with the victim?"
@@ -35,7 +35,7 @@ let data1 = [
     {
 	"id": 5,
         "friend": "Deepti Tanpure",
-        "image": "images/thumbs/Deepti.jpg",
+        "image": "images/thumbs/Deepti",
 	"Q1": "Do you have any suspicions?",
 	"Q2": "What was your last interaction with the victim?",
 	"Q3": "What's your equation with the victim?",
@@ -46,7 +46,7 @@ let data1 = [
     {
 	"id": 6,
         "friend": "Saif Lakhani",
-        "image": "images/thumbs/SAIF.jpg",
+        "image": "images/thumbs/SAIF",
 	"Q1": "What were you doing when the murder took place?",
 	"Q2": "What's your equation with the victim?",
 	"Q3": "When did you see him last?"
@@ -55,7 +55,7 @@ let data1 = [
     {
 	"id": 7,
         "friend": "Ketan Shukla",
-        "image": "images/thumbs/KETAN.jpg",
+        "image": "images/thumbs/KETAN",
 	"Q1": "Who in your opinion looks suspicious?",
 	"Q2": "What was your last interaction with the victim?",
 	"Q3": "What's your equation with the victim?"
@@ -63,7 +63,7 @@ let data1 = [
     {
 	"id": 8,
         "friend": "Makkhi",
-        "image": "images/thumbs/MAKKHI.jpg",
+        "image": "images/thumbs/MAKKHI",
 	"Q1": "Do you have any suspicions?",
 	"Q2": "What was your last interaction with the victim?",
 	"Q3": "What's your equation with the victim?"
@@ -71,7 +71,7 @@ let data1 = [
     {
 	"id": 9,
         "friend": "Jai Lulla",
-        "image": "images/thumbs/JAI.jpg",
+        "image": "images/thumbs/JAI",
 	"Q1": "Do you have any suspicions?",
 	"Q2": "What was your last interaction with the victim?",
 	"Q3": "What's your equation with the victim?"
@@ -79,7 +79,7 @@ let data1 = [
     {
 	"id": 10,
         "friend": "Saif Lakhani",
-        "image": "images/thumbs/SAIF.jpg",
+        "image": "images/thumbs/SAIF",
 	"Q1": "What were you doing when the murder took place?",
 	"Q2": "What's your equation with the victim?",
 	"Q3": "When did you see him last?"
@@ -88,7 +88,7 @@ let data1 = [
     {
 	"id": 11,
         "friend": "Krutika Sarode",
-        "image": "images/thumbs/SARODE.jpg",
+        "image": "images/thumbs/SARODE",
 	"Q1": "Any Suspects?",
 	"Q2": "What was your last interaction with the victim?",
 	"Q3": "What's your equation with the victim?"
@@ -96,7 +96,7 @@ let data1 = [
     {
 	"id": 12,
         "friend": "Ali Asgar",
-        "image": "images/thumbs/ALI.jpg",
+        "image": "images/thumbs/ALI",
 	"Q1": "Do you have any suspicions?",
 	"Q2": "What was your last interaction with the victim?",
 	"Q3": "What's your equation with the victim?"
@@ -104,7 +104,7 @@ let data1 = [
     {
 	"id": 13,
         "friend": "DT",
-        "image": "images/thumbs/DT.jpg",
+        "image": "images/thumbs/DT",
 	"Q1": "When did you last see him?",
 	"Q2": "When did you last see him?",
 	"Q3": "What’s your equation with the victim"
@@ -112,7 +112,7 @@ let data1 = [
     {
 	"id": 14,
         "friend": "Saif Lakhani",
-        "image": "images/thumbs/SAIF.jpg",
+        "image": "images/thumbs/SAIF",
 	"Q1": "What were you doing when the murder took place?",
 	"Q2": "What's your equation with the victim?",
 	"Q3": "When did you see him last?"
@@ -121,7 +121,7 @@ let data1 = [
     {
 	"id": 15,
         "friend": "Faizan Khan",
-        "image": "images/thumbs/FAIZ.jpg",
+        "image": "images/thumbs/FAIZ",
 	"Q1": "You were seen having an argument during the day with the victim. What were you arguing about?",
 	"Q2": "What was your last interaction with the victim?",
 	"Q3": "What's your equation with the victim?"
@@ -129,7 +129,7 @@ let data1 = [
     {
 	"id": 16,
         "friend": "Saurabh Karle",
-        "image": "images/thumbs/KARLE.jpg",
+        "image": "images/thumbs/KARLE",
 	"Q1": "Do you have any suspicions?",
 	"Q2": "What was your last interaction with the victim?",
 	"Q3": "What's your equation with the victim?"
@@ -137,7 +137,7 @@ let data1 = [
     {
 	"id": 17,
         "friend": "Shantan Dadi",
-        "image": "images/thumbs/KARLE.jpg",
+        "image": "images/thumbs/KARLE",
 	"Q1": "Any Suspects?",
 	"Q2": "What was your last interaction with the victim?",
 	"Q3": "What's your equation with the victim?"
