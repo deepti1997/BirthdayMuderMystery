@@ -78,15 +78,6 @@ let data1 = [
     },
     {
 	"id": 10,
-        "friend": "Saif Lakhani",
-        "image": "images/thumbs/SAIF",
-	"Q1": "What were you doing when the murder took place?",
-	"Q2": "What's your equation with the victim?",
-	"Q3": "When did you see him last?"
-	
-    },
-    {
-	"id": 11,
         "friend": "Krutika Sarode",
         "image": "images/thumbs/SARODE",
 	"Q1": "Any Suspects?",
@@ -94,7 +85,7 @@ let data1 = [
 	"Q3": "What's your equation with the victim?"
     },
     {
-	"id": 12,
+	"id": 11,
         "friend": "Ali Asgar",
         "image": "images/thumbs/ALI",
 	"Q1": "Do you have any suspicions?",
@@ -102,7 +93,7 @@ let data1 = [
 	"Q3": "What's your equation with the victim?"
     },
     {
-	"id": 13,
+	"id": 12,
         "friend": "DT",
         "image": "images/thumbs/DT",
 	"Q1": "When did you last see him?",
@@ -110,16 +101,16 @@ let data1 = [
 	"Q3": "What’s your equation with the victim"
     },
     {
-	"id": 14,
-        "friend": "Saif Lakhani",
-        "image": "images/thumbs/SAIF",
+	"id": 13,
+        "friend": "Raghav Bhutra",
+        "image": "images/thumbs/RAGHAV",
 	"Q1": "What were you doing when the murder took place?",
 	"Q2": "What's your equation with the victim?",
 	"Q3": "When did you see him last?"
 	
     },
     {
-	"id": 15,
+	"id": 14,
         "friend": "Faizan Khan",
         "image": "images/thumbs/FAIZ",
 	"Q1": "You were seen having an argument during the day with the victim. What were you arguing about?",
@@ -127,7 +118,7 @@ let data1 = [
 	"Q3": "What's your equation with the victim?"
     },
     {
-	"id": 16,
+	"id": 15,
         "friend": "Saurabh Karle",
         "image": "images/thumbs/KARLE",
 	"Q1": "Do you have any suspicions?",
@@ -135,9 +126,9 @@ let data1 = [
 	"Q3": "What's your equation with the victim?"
     },
     {
-	"id": 17,
+	"id": 16,
         "friend": "Shantan Dadi",
-        "image": "images/thumbs/KARLE",
+        "image": "images/thumbs/SHANTAN",
 	"Q1": "Any Suspects?",
 	"Q2": "What was your last interaction with the victim?",
 	"Q3": "What's your equation with the victim?"
