@@ -145,11 +145,11 @@
                                         <div class="form-group">
                                           <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Name of the murderer" name="textInput">
                                         </div>
-                                        <button type="submit" class="btn btn-primary" id="submitMurderer">Submit</button>
+                                        <button type="submit" class="btn btn-primary" id="submitMurderer">Lock Kar diya jaye</button>
                                     </form><br>
                                     <button class="btn btn-primary" data-dismiss="modal"  type="button">
                                         <i class="fas fa-times mr-1"></i>
-                                        Close Project
+                                        I'm not sure. Close this!
                                     </button>
                                 </div>
                             </div>
@@ -245,7 +245,7 @@
                 var x= document.forms["InputMurderer"]["textInput"].value;
                 x = x.toLowerCase().trim();
                 if ( x != data[0]["friend"].toLowerCase().trim()){
-                    alert("MUHAHAHAAHAHAA WRONG ANSWER!!!!");
+                    window.location.replace("lol.html");
                 }
                 else{
                     window.location.replace("prize.html");
