@@ -190,9 +190,9 @@ let data1 = [
 	"Q2": "What was your last interaction with the victim?",
 	"Q3": "What's your equation with the victim?",
 	"tagLine" : "Master of setting things ablaze.",
-	"vid1": "https://drive.google.com/file/d/1KFfXpgXKBqGWP13Ka5N8jLpS9ghngw-l/preview",
- 	"vid2": "https://drive.google.com/file/d/11aBuF2KyMPfOA1s5OvIylEsYKoWxDajl/preview",
-	"vid3": "https://drive.google.com/file/d/1uddoHspOfnCFAw3FArGFt9xjCJxC_ugy/preview"
+	"vid1": "https://drive.google.com/file/d/10Av0qPv69wF7uAZIQ6EIVIYzmO92r5Ks/preview",
+ 	"vid2": "https://drive.google.com/file/d/18OW__PlNAm2BnIrq5LpYPKo9D1nUhvg2/preview",
+	"vid3": "https://drive.google.com/file/d/1bsV8yCtXZPYeYLOGzXPxq-xZTVQSyms8/preview"
     }
 
 ];
