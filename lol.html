@@ -16,6 +16,23 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <script src="data/data.txt"></script>
+        
+	<!-- Disable right click http://www.spacegun.co.uk -->
+	<script language=JavaScript>
+		var message = "Used your own method against ya!";
+
+		function rtclickcheck(keyp) {
+			if (navigator.appName == "Netscape" && keyp.which == 3) {
+				alert(message);
+				return false;
+			}
+			if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) {
+				alert(message);
+				return false;
+			}
+		}
+		document.onmousedown = rtclickcheck;
+	</script>
     </head>
     <body>
 

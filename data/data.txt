@@ -31,7 +31,7 @@ let data1 = [
 	"Q2": "What was your last interaction with the victim?",
 	"Q3": "What's your equation with the victim?",
 	"vid1": "https://drive.google.com/file/d/19xR865OlBnIYrqzkMKo-HawAk1P8lsP1/preview",
-	"vid2": "https://drive.google.com/file/d/19yjdfVeC3FGd5xRW_-A13KjgXcTrA1V9/preview",
+	"vid2": "https://drive.google.com/file/d/1BuXNnd3tfsnPyu-APdQ6sj5JCcsUSlnv/preview",
 	"vid3": "https://drive.google.com/file/d/1AC-s5zzpRqzX5MkfmiPBd4Or0KsAWhdq/preview",
 	"tagLine" : "Chota package bada dhamaka."
     },

@@ -28,6 +28,24 @@
             text-align: center;
           }
         </style>
+
+        
+	<!-- Disable right click http://www.spacegun.co.uk -->
+	<script language=JavaScript>
+		var message = "Used your own method against ya!";
+
+		function rtclickcheck(keyp) {
+			if (navigator.appName == "Netscape" && keyp.which == 3) {
+				alert(message);
+				return false;
+			}
+			if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) {
+				alert(message);
+				return false;
+			}
+		}
+		document.onmousedown = rtclickcheck;
+	</script>
     </head>
     <body>
 
@@ -37,7 +55,8 @@
                       <div class="row justify-content-center">
                           <div class="col-lg-8">
                             <h2 class="text-uppercase">Happy Birthday!!</h2>
-                              <iframe id="drive" src="https://drive.google.com/file/d/1F79yVmktniuKSyUA_mq3I3yBiux4dIC-/preview" width="840" height="640" style="margin:auto;"></iframe>    
+                            <h3 class="section-subheading text-muted">Sorry! It's not the right time yes ;) </h3>
+                              <!-- <iframe id="drive" src="https://drive.google.com/file/d/1F79yVmktniuKSyUA_mq3I3yBiux4dIC-/preview" width="840" height="640" style="margin:auto;"></iframe>     -->
                           </div>
                       </div>
                   </div>
