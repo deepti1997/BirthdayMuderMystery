@@ -39,7 +39,7 @@
         <header class="masthead">
             <div class="container">
                 <div class="masthead-heading text-uppercase">Hi Saloni!</div>
-                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" data-toggle="modal" data-target="#instructions">What happened yesterday ?!</a>
+                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" data-toggle="modal" data-target="#premise">What happened yesterday ?!</a>
                 <br><br>
                 <a class="masthead-subheading" data-toggle="modal" data-target="#instructions">See The Instructions</a>
             </div>
@@ -75,17 +75,20 @@
                                 <div class="modal-body">
                                     <!-- Project Details Go Here-->
                                     <h2 class="text-uppercase">Instructions</h2>
-                                    <p class="item-intro text-muted">Add instructions here</p>
                                     <img class="img-fluid d-block mx-auto" src="images/thumbs/IpshitaDrawing.jpeg" alt="" />
-                                    <p>Add instructions here</p>
                                     <ul class="list-inline">
-                                        <li>Date: January 2020</li>
-                                        <li>Client: Explore</li>
-                                        <li>Category: Graphic Design</li>
+                                        <li>1. Click on the photos of each person present last night to interview them.</li>
+                                        <li>2. You get 3 questions for each possible suspect.</li>
+                                        <li>3. It is recommended to follow the pre-assigned order of questioning suspects.</li>
+                                        <li>4. Once you have interviewed all possible suspects, it is your job to deduce who could be the possible murderer.</li>
+                                        <li>5. You get one and only one chance to decide who's the murderer.</li>
+                                        <li>6. Once you have made your decision, click on the button and write the name of the murderer.</li>
+                                        <li>7. If you are right, you will have helped Shubham's soul find peace. If you are wrong, his soul will haunt you forever.</li>
                                     </ul>
+                                    <p>All the best for your detective work!</p>
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times mr-1"></i>
-                                        Close Project
+                                        Close
                                     </button>
                                 </div>
                             </div>
@@ -94,6 +97,36 @@
                 </div>
             </div>
         </div>
+
+
+          <!-- Modal -->
+          <div class="portfolio-modal modal fade" id="premise" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Instructions</h2>
+                                    <!-- <iframe id="drive" src="assets/video/introduction.mp4" width="840" height="640" style="margin:auto;"></iframe> -->
+                                    <video width="100%" height="auto" controls>
+                                        <source src="assets/video/introduction.mp4" type="video/mp4">
+                                      Your browser does not support the video tag.
+                                      </video>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
         <div class="portfolio-modal modal fade" id="murderer" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
@@ -211,11 +244,10 @@
                 event.preventDefault();
                 var x= document.forms["InputMurderer"]["textInput"].value;
                 x = x.toLowerCase().trim();
-                if ( x != data[11]["friend"].toLowerCase().trim()){
+                if ( x != data[0]["friend"].toLowerCase().trim()){
                     alert("MUHAHAHAAHAHAA WRONG ANSWER!!!!");
                 }
                 else{
-                    alert("Right answer")
                     window.location.replace("prize.html");
                 }
             }
